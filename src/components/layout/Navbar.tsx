@@ -1,32 +1,24 @@
-"use client";
-import { useState } from "react";
-import Button from "@/components/common/Button";
-import { prefilledWA } from "@/lib/wa";
-import { siteConfig } from "@/config/site";
+
+import Link from "next/link";
+import CartButton from "@/components/cart/CartButton";
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
-  const nav = [{href:"#services",label:"Layanan"},{href:"#catalog",label:"Katalog"},{href:"#why",label:"Kenapa Titanium"},{href:"#how",label:"Cara Order"},{href:"#faq",label:"FAQ"},{href:"#contact",label:"Kontak"}];
   return (
-    <div className="fixed top-0 left-0 right-0 z-40 border-b border-white/10 bg-black/30 backdrop-blur-md">
+    <header className="sticky top-0 z-40 w-full backdrop-blur border-b border-white/10 bg-black/30">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        <a href="#" className="text-white font-bold tracking-tight">{siteConfig.businessName}</a>
-        <div className="hidden md:flex items-center gap-6 text-sm text-white/80">
-          {nav.map(i=> <a key={i.href} href={i.href} className="hover:text-white">{i.label}</a>)}
-          <a href={prefilledWA("Halo, saya tertarik dengan produk/layanan titanium.")} target="_blank">
-            <Button><span>Chat WhatsApp</span></Button>
-          </a>
+        <Link href="/" className="text-white font-semibold tracking-tight">Titanium Medan</Link>
+        <nav className="hidden md:flex items-center gap-6">
+          <Link href="/#catalog" className="text-white/80 hover:text-white text-sm">Katalog</Link>
+          <Link href="/#why" className="text-white/80 hover:text-white text-sm">Why</Link>
+          <Link href="/#faq" className="text-white/80 hover:text-white text-sm">FAQ</Link>
+          <Link href="/etalase/honda/vario" className="text-white font-medium text-sm">Etalase</Link>
+          <CartButton />
+        </nav>
+        <div className="md:hidden flex items-center gap-3">
+          <Link href="/etalase/honda/vario" className="text-white text-sm">Etalase</Link>
+          <CartButton />
         </div>
-        <button className="md:hidden text-white/80" onClick={()=>setOpen(v=>!v)} aria-label="Toggle Menu">☰</button>
       </div>
-      {open && (
-        <div className="md:hidden border-t border-white/10 px-4 py-3 text-white/80 space-y-2">
-          {nav.map(i=> <a key={i.href} href={i.href} onClick={()=>setOpen(false)} className="block">{i.label}</a>)}
-          <a href={prefilledWA("Halo, saya tertarik dengan produk/layanan titanium.")} target="_blank" className="block">
-            <Button className="w-full">Chat WhatsApp</Button>
-          </a>
-        </div>
-      )}
-    </div>
+    </header>
   );
 }

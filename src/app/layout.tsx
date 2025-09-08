@@ -1,22 +1,29 @@
-import "./globals.css";
+
 import type { Metadata } from "next";
+import "./globals.css";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import CartSheet from "@/components/cart/CartSheet";
+import { UIProvider } from "@/context/UIContext";
 import { CartProvider } from "@/context/CartContext";
 
 export const metadata: Metadata = {
-  title: "Baut Titanium & Recolor Medan | Request Part Custom",
-  description: "Spesialis baut titanium & anodizing warna. Custom part & portofolio, order cepat via WhatsApp/DM.",
-  openGraph: {
-    title: "Baut Titanium & Recolor Medan",
-    description: "Custom part & anodizing premium. Konsultasi via WA.",
-    type: "website"
-  }
+  title: "Titanium Medan — Premium Titanium Parts",
+  description: "Etalase & katalog part titanium untuk motor. Checkout manual via WhatsApp & PDF."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="id">
-      <body className="min-h-screen bg-[#0B0E12] text-[#E6ECF2]">
-        <CartProvider>{children}</CartProvider>
+      <body>
+        <CartProvider>
+          <UIProvider>
+            <Navbar />
+            {children}
+            <Footer />
+            <CartSheet />
+          </UIProvider>
+        </CartProvider>
       </body>
     </html>
   );

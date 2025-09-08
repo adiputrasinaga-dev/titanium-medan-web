@@ -1,0 +1,347 @@
+[
+  {
+    "id": "v-bcvt-01",
+    "title": "Paket Baut CVT \u2014 Vario",
+    "slug": "paket-baut-cvt-vario",
+    "partFamily": "baut-cvt",
+    "images": [
+      "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591951425328-48c1fe7179cd?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "description": "Set baut cover CVT titanium untuk Vario semua generasi.",
+    "variants": [
+      {
+        "sku": "paket-baut-cvt-vario-M6-20-gold",
+        "thread": "M6",
+        "length": 20,
+        "head": "hex",
+        "color": "gold",
+        "grade": "G5",
+        "price": 275000,
+        "stock": 12
+      },
+      {
+        "sku": "paket-baut-cvt-vario-M6-20-purple",
+        "thread": "M6",
+        "length": 20,
+        "head": "hex",
+        "color": "purple",
+        "grade": "G5",
+        "price": 275000,
+        "stock": 12
+      },
+      {
+        "sku": "paket-baut-cvt-vario-M6-20-blue",
+        "thread": "M6",
+        "length": 20,
+        "head": "hex",
+        "color": "blue",
+        "grade": "G5",
+        "price": 275000,
+        "stock": 12
+      }
+    ],
+    "compatibility": [
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-old"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-new"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "150"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "160"
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "id": "v-bkal-01",
+    "title": "Baut Kaliper Depan \u2014 Vario",
+    "slug": "baut-kaliper-depan-vario",
+    "partFamily": "baut-kaliper",
+    "images": [
+      "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591951425328-48c1fe7179cd?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "description": "Baut kaliper depan Grade 5\u2014anti karat, ringan.",
+    "variants": [
+      {
+        "sku": "baut-kaliper-depan-vario-M8-25-gold",
+        "thread": "M8",
+        "length": 25,
+        "head": "hex",
+        "color": "gold",
+        "grade": "G5",
+        "price": 165000,
+        "stock": 15
+      },
+      {
+        "sku": "baut-kaliper-depan-vario-M8-25-blue",
+        "thread": "M8",
+        "length": 25,
+        "head": "hex",
+        "color": "blue",
+        "grade": "G5",
+        "price": 165000,
+        "stock": 15
+      },
+      {
+        "sku": "baut-kaliper-depan-vario-M8-25-purple",
+        "thread": "M8",
+        "length": 25,
+        "head": "hex",
+        "color": "purple",
+        "grade": "G5",
+        "price": 165000,
+        "stock": 15
+      }
+    ],
+    "compatibility": [
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-old"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-new"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "150"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "160"
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "id": "v-disc-01",
+    "title": "Baut Disc Rotor \u2014 Vario (Front)",
+    "slug": "baut-disc-rotor-vario-front",
+    "partFamily": "disc-rotor",
+    "images": [
+      "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591951425328-48c1fe7179cd?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "description": "Set baut disc rotor depan, torsi & material aman.",
+    "variants": [
+      {
+        "sku": "baut-disc-rotor-vario-front-M6-16-gold",
+        "thread": "M6",
+        "length": 16,
+        "head": "hex",
+        "color": "gold",
+        "grade": "G5",
+        "price": 195000,
+        "stock": 20
+      },
+      {
+        "sku": "baut-disc-rotor-vario-front-M6-16-blue",
+        "thread": "M6",
+        "length": 16,
+        "head": "hex",
+        "color": "blue",
+        "grade": "G5",
+        "price": 195000,
+        "stock": 20
+      },
+      {
+        "sku": "baut-disc-rotor-vario-front-M6-16-purple",
+        "thread": "M6",
+        "length": 16,
+        "head": "hex",
+        "color": "purple",
+        "grade": "G5",
+        "price": 195000,
+        "stock": 20
+      }
+    ],
+    "compatibility": [
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-old"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-new"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "150"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "160"
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "id": "v-eng-01",
+    "title": "Baut Engine Cover (Kecil) \u2014 Vario",
+    "slug": "baut-engine-cover-kecil-vario",
+    "partFamily": "engine-cover",
+    "images": [
+      "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591951425328-48c1fe7179cd?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "description": "Baut sensor/cover kecil\u2014anti karat, warna stabil.",
+    "variants": [
+      {
+        "sku": "baut-engine-cover-kecil-vario-M6-12-gold",
+        "thread": "M6",
+        "length": 12,
+        "head": "button",
+        "color": "gold",
+        "grade": "G5",
+        "price": 45000,
+        "stock": 30
+      },
+      {
+        "sku": "baut-engine-cover-kecil-vario-M6-12-blue",
+        "thread": "M6",
+        "length": 12,
+        "head": "button",
+        "color": "blue",
+        "grade": "G5",
+        "price": 45000,
+        "stock": 30
+      },
+      {
+        "sku": "baut-engine-cover-kecil-vario-M6-12-purple",
+        "thread": "M6",
+        "length": 12,
+        "head": "button",
+        "color": "purple",
+        "grade": "G5",
+        "price": 45000,
+        "stock": 30
+      },
+      {
+        "sku": "baut-engine-cover-kecil-vario-M6-12-bronze",
+        "thread": "M6",
+        "length": 12,
+        "head": "button",
+        "color": "bronze",
+        "grade": "G5",
+        "price": 45000,
+        "stock": 30
+      }
+    ],
+    "compatibility": [
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-old"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-new"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "150"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "160"
+      }
+    ],
+    "isActive": true
+  },
+  {
+    "id": "v-body-01",
+    "title": "Baut Body/Fairing \u2014 Vario",
+    "slug": "baut-body-fairing-vario",
+    "partFamily": "body-fairing",
+    "images": [
+      "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591951425328-48c1fe7179cd?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "description": "Dress-up panel bodi, kepala button aman untuk plastik.",
+    "variants": [
+      {
+        "sku": "baut-body-fairing-vario-M5-16-gold",
+        "thread": "M5",
+        "length": 16,
+        "head": "button",
+        "color": "gold",
+        "grade": "G5",
+        "price": 35000,
+        "stock": 40
+      },
+      {
+        "sku": "baut-body-fairing-vario-M5-16-blue",
+        "thread": "M5",
+        "length": 16,
+        "head": "button",
+        "color": "blue",
+        "grade": "G5",
+        "price": 35000,
+        "stock": 40
+      },
+      {
+        "sku": "baut-body-fairing-vario-M5-16-purple",
+        "thread": "M5",
+        "length": 16,
+        "head": "button",
+        "color": "purple",
+        "grade": "G5",
+        "price": 35000,
+        "stock": 40
+      }
+    ],
+    "compatibility": [
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-old"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "125-new"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "150"
+      },
+      {
+        "brand": "honda",
+        "model": "vario",
+        "generation": "160"
+      }
+    ],
+    "isActive": true
+  }
+]
